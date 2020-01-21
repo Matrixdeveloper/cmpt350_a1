@@ -16,15 +16,15 @@ function multiply(intNum1) {
     return intNum1 * intNum2;
 }
 
-function revert() {
+function revert(stringA, stringB) {
     var x = document.getElementById("rev_b");
 
     if (x.getAttribute('state') == 0){
-        x.innerHTML = "NEW!";
+        x.innerHTML = stringA;
         x.setAttribute('state', 1);
     }
     else {
-        x.innerHTML = "OLD!";
+        x.innerHTML = stringB;
         x.setAttribute('state', 0);
     }
 }
