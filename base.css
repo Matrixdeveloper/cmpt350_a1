@@ -1,0 +1,42 @@
+
+/*define the top menubar style*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(31, 114, 170);
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+li a:hover{
+    background-color: rgb(233, 231, 97);
+}
+/*end of navi bar*/
+
+body{
+    background-color: white;
+    font-family: sans-serif;
+}
+
+h1{
+    color: green;
+    margin-left: 20px;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 24px;
+}
