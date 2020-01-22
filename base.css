@@ -1,19 +1,12 @@
 
 /*define the top menubar style*/
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.navbar{
     background-color:rgb(31, 114, 170);
     overflow: hidden;
 }
 
-li {
+.navbar a{
     float: left;
-}
-
-li a{
-    display: block;
     color: white;
     text-align: center;
     padding: 16px 20px;
@@ -21,7 +14,7 @@ li a{
     font-family: sans-serif;
 }
 
-li a:hover{
+.navbar a:hover{
     background-color: rgb(233, 231, 97);
 }
 /*end of navi bar*/
@@ -31,12 +24,27 @@ body{
     font-family: sans-serif;
 }
 
+
 h1{
     color: green;
     margin-left: 20px;
 }
 
-p{
-    font-family: sans-serif;
-    font-size: 24px;
+.obj ul{
+    list-style-type: square;
+}
+
+
+/* set table appearance*/
+.time table, .time th, .time td {
+    background-color:rgb(31, 114, 170);
+    border: 2px solid black;
+}
+
+.grade table, .grade th, .grade td{
+    border: 1px solid black;
+}
+
+td {
+    padding: 15px;
 }

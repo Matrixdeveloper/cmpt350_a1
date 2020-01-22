@@ -6,13 +6,12 @@
 <script src="my_js_1.js"></script>
 </head>
 <body>
-
-<ul>
-    <li><a href="home.html">HOME</a></li>
-    <li><a href="objective.html">OBJECTIVE</a></li>
-    <li><a href="grade.html">GRADING</a></li>
-    <li><a href="time.html">TIME</a></li>    
-</ul>
+    <div class="navbar">
+        <a href="home.html">HOME</a>
+        <a href="objective.html">OBJECTIVE</a>
+        <a href="grade.html">GRADING</a>
+        <a href="time.html">TIME</a>
+    </div>
 
 
 <h1>CMPT 350 TIME AND LOCATION</h1>
@@ -20,33 +19,58 @@
 <!-- This is a table -->
 
 <h2>Course Time and Location</h2>
-<table>
-    <tr>
-        <th>Type</th>
-        <th>Date</th>
-        <th>Time/Location</th>
-    </tr>
-    <tr>
-        <td>Lecture </td>
-        <td>Monday</td>
-        <td id=time_1 state=0 
-        onclick="revert( 'time_1', '12:30-1:20', 'Spinks S320')">12:30-1:20</td>
-    </tr>
-    <tr>
-        <td>Lecture </td>
-        <td>Wednesday</td>
-        <td id=time_2 state=0 
-        onclick="revert( 'time_2', '12:30-1:20', 'Spinks S320')">12:30-1:20</td>
-    </tr>
+<div class = time>
+    <table>
+        <col width="200">
+        <col width="200">
+        <col width="200">
 
-    <tr>
-        <td>Lecture </td>
-        <td>Friday</td>
-        <td id=time_3 state=0 
-        onclick="revert( 'time_3', '12:30-1:20', 'Spinks S320')">12:30-1:20</td>
-    </tr>
+        <tr>
+            <th>Type</th>
+            <th>Date</th>
+            <th>Time/Location</th>
+        </tr>
+        <tr>
+            <td>Lecture </td>
+            <td>Monday Wednesday Friday</td>
+            <td id=time_1 state=0 
+            onclick="revert( 'time_1', '12:30pm-1:20pm', 'Arts 134')
+            ">12:30pm-1:20pm</td>
+        </tr>
 
-</table>
+        <tr>
+            <td>Tutorials </td>
+            <td>Monday</td>
+            <td id=time_2 state=0 
+            onclick="revert( 'time_2', '3:30pm-4:20pm', 'Spinks S320')
+            ">3:30pm-4:20pm</td>
+        </tr>
 
+        <tr>
+            <td>Tutorials </td>
+            <td>Wednesday</td>
+            <td id=time_3 state=0 
+            onclick="revert( 'time_3', '10:30am-11:20am', 'Spinks S320')
+            ">10:30am-11:20am</td>
+        </tr>
+
+        <tr>
+            <td>Tutorials </td>
+            <td>Wednesday</td>
+            <td id=time_4 state=0 
+            onclick="revert( 'time_4', '4:30pm-5:20pm', 'Spinks S320')
+            ">4:30pm-5:20pm</td>
+        </tr>
+
+        <tr>
+            <td>Tutorials </td>
+            <td>Thursday</td>
+            <td id=time_5 state=0 
+            onclick="revert( 'time_5', '9:00am-9:50am', 'Spinks S320')
+            ">9:00am-9:50am</td>
+        </tr>
+
+    </table>
+</div>
 </body>
 </html>
