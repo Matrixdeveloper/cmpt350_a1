@@ -16,23 +16,36 @@
 
 
 <h1>CMPT 350 TIME AND LOCATION</h1>
-    <p>This is a paragraph</p>
-    <button type="button" onclick="hello()">Click Me!</button>
-    <p id="demo"></p>
-    
-    <button id=rev_b state=0 type="button" onclick="revert()">OLD!</button>
+
 <!-- This is a table -->
 
 <h2>Course Time and Location</h2>
 <table>
     <tr>
         <th>Type</th>
+        <th>Date</th>
         <th>Time/Location</th>
     </tr>
     <tr>
         <td>Lecture </td>
-        <td>12:30 - 1:20</td>
+        <td>Monday</td>
+        <td id=time_1 state=0 
+        onclick="revert( 'time_1', '12:30-1:20', 'Spinks S320')">12:30-1:20</td>
     </tr>
+    <tr>
+        <td>Lecture </td>
+        <td>Wednesday</td>
+        <td id=time_2 state=0 
+        onclick="revert( 'time_2', '12:30-1:20', 'Spinks S320')">12:30-1:20</td>
+    </tr>
+
+    <tr>
+        <td>Lecture </td>
+        <td>Friday</td>
+        <td id=time_3 state=0 
+        onclick="revert( 'time_3', '12:30-1:20', 'Spinks S320')">12:30-1:20</td>
+    </tr>
+
 </table>
 
 </body>
