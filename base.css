@@ -1,3 +1,9 @@
+/*define page size*/
+html{
+    width: 800px;
+}
+
+
 
 /*define the top menubar style*/
 .navbar{
@@ -37,14 +43,12 @@ h1{
 
 /* set table appearance*/
 .time table, .time th, .time td {
-    background-color:rgb(31, 114, 170);
+    background-color: white;
     border: 2px solid black;
+    padding: 5px;
 }
 
 .grade table, .grade th, .grade td{
     border: 1px solid black;
-}
-
-td {
-    padding: 15px;
+    padding: 5px;
 }
